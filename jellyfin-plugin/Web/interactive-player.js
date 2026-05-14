@@ -684,10 +684,10 @@ class JellyfinInteractivePlayer {
         // For the simplified metadata, we need to map choice IDs to segments
         // Based on the structure, let's create a simple mapping
         const choiceToSegmentMap = {
-            '1R': '1E',  // Sugar Puffs -> segment 1E
-            '1S': '1E',  // Frosties -> segment 1E (same path for cereal choice)
-            '1H': '1H',  // Accept music -> segment 1H
-            '1G': '1H',  // Decline music -> segment 1H (simplified)
+            '1E': '1E',
+            '1D': '1D',
+            '1H': '1H',
+            '1G': '1G',
             '8A': '8A',  // Accept -> segment 8A
             '1Qtt': '1Qtt', // Decline -> segment 1Qtt
             'nsg-LettersPACSChoice': '1Qtt', // PACS choice
